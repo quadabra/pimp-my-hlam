@@ -1,0 +1,297 @@
+/********************* 
+akm 
+*********************/
+
+.accessories-preview_akm .item-dtk__image-block {
+  top: 167px;
+  left: 900px;
+  width: 27px;
+}
+
+.accessories-preview_akm .item-dtk__dot-block {
+  top: 160px;
+  left: 905px;
+  width: 86px;
+}
+
+.accessories-preview_akm .item-dtk__letters-block {
+  top: 135px;
+  left: 965px;
+  width: 48px;
+}
+
+
+
+.accessories-preview_akm .item-stock__image-block {
+  top: 172px;
+  left: 20px;
+  width: 259px;
+}
+
+.accessories-preview_akm .item-stock__dot-block {
+  top: 115px;
+  left: 165px;
+  width: 28px;
+}
+
+.accessories-preview_akm .item-stock__letters-block {
+  top: 105px;
+  left: 65px;
+  width: 96px;
+}
+
+
+
+.accessories-preview_akm .item-grip__image-block {
+  top: 215px;
+  left: 275px;
+  width: 82px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-grip__dot-block {
+  top: 285px;
+  left: 285px;
+  width: 22px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-grip__letters-block {
+  top: 355px;
+  left: 210px;
+  width: 72px;
+}
+
+
+
+.accessories-preview_akm .item-accessories__image-block {
+  top: 137px;
+  left: 272px;
+  width: 275px;
+}
+
+.accessories-preview_akm .item-accessories__dot-block {
+  top: 95px;
+  left: 435px;
+  width: 28px;
+}
+
+.accessories-preview_akm .item-accessories__letters-block {
+  top: 85px;
+  left: 260px;
+  width: 170px;
+}
+
+
+
+.accessories-preview_akm .item-sight__image-block {
+  top: 124px;
+  left: 511px;
+  width: 85px;
+  z-index: 6;
+}
+
+.accessories-preview_akm .item-sight__dot-block {
+  top: 52px;
+  left: 520px;
+  width: 28px;
+  z-index: 6;
+}
+
+.accessories-preview_akm .item-sight__letters-block {
+  top: 45px;
+  left: 430px;
+  width: 87px;
+}
+
+
+.accessories-preview_akm .item-mag__image-block {
+  top: 208px;
+  left: 424px;
+  width: 153px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-mag__dot-block {
+  top: 295px;
+  left: 540px;
+  width: 92px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-mag__letters-block {
+  top: 265px;
+  left: 580px;
+  width: 195px;
+}
+
+
+.accessories-preview_akm .item-forend__image-block {
+  top: 128px;
+  left: 542px;
+  width: 169px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-forend__dot-block {
+  top: 60px;
+  left: 640px;
+  width: 22px;
+  z-index: 5;
+}
+
+.accessories-preview_akm .item-forend__letters-block {
+  top: 50px;
+  left: 670px;
+  width: 113px;
+}
+
+@media (max-width: 1100px) {
+  /********************* 
+akm 
+*********************/
+
+  .accessories-preview_akm .item-dtk__image-block {
+    top: 90px;
+    left: 491px;
+    width: 14px;
+  }
+
+  .accessories-preview_akm .item-dtk__dot-block {
+    top: 87px;
+    left: 495px;
+    width: 40px;
+  }
+
+  .accessories-preview_akm .item-dtk__letters-block {
+    top: 67px;
+    left: 520px;
+    width: 30px;
+  }
+
+
+
+  .accessories-preview_akm .item-stock__image-block {
+    top: 93px;
+    left: 11px;
+    width: 141px;
+  }
+
+  .accessories-preview_akm .item-stock__dot-block {
+    top: 65px;
+    left: 105px;
+    width: 16px;
+  }
+
+  .accessories-preview_akm .item-stock__letters-block {
+    top: 60px;
+    left: 40px;
+    width: 60px;
+  }
+
+
+
+  .accessories-preview_akm .item-grip__image-block {
+    top: 117px;
+    left: 150px;
+    width: 45px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-grip__dot-block {
+    top: 155px;
+    left: 155px;
+    width: 13px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-grip__letters-block {
+    top: 195px;
+    left: 105px;
+    width: 46px;
+  }
+
+
+
+  .accessories-preview_akm .item-accessories__image-block {
+    top: 75px;
+    left: 150px;
+    width: 149px;
+  }
+
+  .accessories-preview_akm .item-accessories__dot-block {
+    top: 35px;
+    left: 235px;
+    width: 16px;
+  }
+
+  .accessories-preview_akm .item-accessories__letters-block {
+    top: 30px;
+    left: 125px;
+    width: 105px;
+  }
+
+
+
+  .accessories-preview_akm .item-sight__image-block {
+    top: 68px;
+    left: 279.6px;
+    width: 45px;
+    z-index: 6;
+  }
+
+  .accessories-preview_akm .item-sight__dot-block {
+    top: 32px;
+    left: 300px;
+    width: 16px;
+    z-index: 6;
+  }
+
+  .accessories-preview_akm .item-sight__letters-block {
+    top: 15px;
+    left: 280px;
+    width: 54px;
+  }
+
+
+  .accessories-preview_akm .item-mag__image-block {
+    top: 114px;
+    left: 233px;
+    width: 83px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-mag__dot-block {
+    top: 165px;
+    left: 290px;
+    width: 50px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-mag__letters-block {
+    top: 160px;
+    left: 345px;
+    width: 125px;
+  }
+
+
+  .accessories-preview_akm .item-forend__image-block {
+    top: 70px;
+    left: 297px;
+    width: 91px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-forend__dot-block {
+    top: 25px;
+    left: 355px;
+    width: 13px;
+    z-index: 5;
+  }
+
+  .accessories-preview_akm .item-forend__letters-block {
+    top: 20px;
+    left: 370px;
+    width: 72px;
+  }
+}

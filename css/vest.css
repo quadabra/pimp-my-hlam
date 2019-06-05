@@ -1,0 +1,255 @@
+.content__container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.vest__block {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vest__block ~ * {
+    transition-duration: 0.15s;
+}
+
+.vest__link {
+    display: block;
+    transition-duration: 0.15s;
+}
+
+.vest-text {
+    position: absolute;
+
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.vest-text:hover {
+    color: #6e9f26;
+}
+
+.content__image {
+    position: relative;
+    width: 1100px;
+    height: 1100px;
+    background: url("https://grey-shop.ru/image/catalog/atom-vest/vest_full.png") no-repeat;
+}
+
+.vest__image {
+    position: absolute;
+    cursor: pointer;
+}
+
+.vest__arms-image_right {
+    left: 750px;
+    top: 80px;
+}
+
+.vest__arms-image_left {
+    left: 177px;
+    top: 125px;
+}
+
+.vest__image_active {
+    opacity: 0;
+}
+
+.vest__arms-text {
+    top: 110px;
+    left: 100px;
+}
+
+.vest__arms-dot {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-bottom: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 200px;
+    left: 170px;
+    cursor: pointer;
+}
+
+.vest__dot-inner {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.vest__dot-inner_first {
+    top: -12px;
+    left: -12px;
+
+}
+
+.vest__dot-inner_second {
+    bottom: -12px;
+    right: -12px;
+
+}
+
+.vest__link:hover > .vest__image_active {
+    opacity: 1;
+    transition-duration: .15s;
+}
+
+.vest__link:hover > .vest__dot {
+    border-color: #6e9f26;
+    transition-duration: .15s;
+}
+
+.vest__link:hover > .vest__dot ~ .vest__dot-inner {
+    background-color: #6e9f26;
+    transition-duration: .15s;
+}
+
+.vest__link:hover > .vest-text {
+    color: #6e9f26;
+    transition-duration: .15s;
+}
+
+.vest__shoulders-image {
+    top: 52px;
+    left: 321px;
+}
+
+.vest__shoulders-text {
+    top: 10px;
+    left: 100px;
+}
+
+.vest__shoulders-dot {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border-top: 5px solid #cccccc;
+    border-right: 5px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 42px;
+    left: 305px;
+    cursor: pointer;
+}
+
+.vest__throat-image {
+    top: 0;
+    left: 390px;
+    z-index: 2;
+}
+
+.vest__throat-text {
+    top: 10px;
+    left: 800px;
+}
+
+.vest__throat-dot {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    border-top: 5px solid #cccccc;
+    border-right: 5px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 18px;
+    left: 640px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.vest__front-image {
+    top: 134px;
+    left: 264px;
+    z-index: 1;
+}
+
+.vest__front-text {
+    top: 800px;
+    left: 800px;
+}
+
+.vest__front-dot {
+    position: absolute;
+    width: 120px;
+    height: 133px;
+    border-bottom: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 700px;
+    left: 650px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.vest__back-image {
+    top: 100px;
+    left: 630px;
+}
+
+.vest__back-text {
+    top: 500px;
+    left: 900px;
+}
+
+.vest__back-dot {
+    position: absolute;
+    width: 120px;
+    height: 133px;
+    border-bottom: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 400px;
+    left: 750px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.vest__cummerband-image {
+    top: 431px;
+    left: 657px;
+}
+
+.vest__cummerband-text {
+    top: 700px;
+    left: 900px;
+}
+
+.vest__cummerband-dot {
+    position: absolute;
+    width: 120px;
+    height: 133px;
+    border-bottom: 5px solid #cccccc;
+    border-left: 5px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 600px;
+    left: 750px;
+    cursor: pointer;
+}
+
+.vest__groin-pad-image {
+    top: 645px;
+    left: 303px;
+}
+
+.vest__groin-pad-text {
+    top: 910px;
+    left: 700px;
+}
+
+.vest__groin-pad-dot {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    border-top: 5px solid #cccccc;
+    border-right: 5px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 918px;
+    left: 540px;
+    cursor: pointer;
+}

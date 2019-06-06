@@ -1,24 +1,373 @@
-.content__container {
-    width: 1100px;
+@media (max-width: 767px) {
+  .content__container {
+    width: 320px;
     margin: 0 auto;
+  }
+
+  .content_header {
+    width: 320px;
+    margin: 0 0 50px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .vest__image {
+    display: none;
+  }
+
+  .content__image {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 800px;
+    background: url("https://grey-shop.ru/image/catalog/atom-vest/vest_full.png") no-repeat;
+    background-size: contain;
+  }
+
+  .vest-text {
+    width: 320px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(60, 120, 232);
+    border-radius: 25px;
+    color: #efefef;
+    text-transform: uppercase;
+  }
+
+  .vest__dot {
+    display: none;
+  }
+
+  .vest__block {
+    margin: 0;
+    padding: 340px 0 0 0;
+    height: 800px;
+    list-style: none;
+  }
+
+  .vest__link {
+    width: 320px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+  }
+
+  .vest__block-item {
+    margin: 10px 0;
+  }
+
+  .vest__link > p > br {
+    display: none;
+  }
 }
 
-.vest__block {
+@media (min-width: 768px) and (max-width: 1139px) {
+  .content__container {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .vest__block {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
 
-.vest__block ~ * {
-    transition-duration: 0.15s;
-}
-
-.vest__link {
+  .vest__link {
     display: block;
     transition-duration: 0.15s;
+  }
+
+  .vest-text {
+    position: absolute;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+
+  .vest-text:hover {
+    color: #6e9f26;
+  }
+
+  .content__image {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    background: url("https://grey-shop.ru/image/catalog/atom-vest/vest_full.png") no-repeat;
+    background-size: contain;
+  }
+
+  .vest__image {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .vest__dot {
+    display: block;
+  }
+
+  .vest__link > p > br {
+    display: inline;
+  }
+
+
+  .vest__arms-image_right {
+    width: 127px;
+    height: 210px;
+    left: 375px;
+    top: 40px;
+  }
+
+  .vest__arms-image_left {
+    width: 89px;
+    height: 193px;
+    left: 88px;
+    top: 62px;
+  }
+
+  .vest__image_active {
+    opacity: 0;
+  }
+
+  .vest__arms-text {
+    top: 55px;
+    left: 10px;
+  }
+
+  .vest__arms-dot {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-bottom: 3px solid #cccccc;
+    border-left: 3px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 100px;
+    left: 85px;
+    cursor: pointer;
+  }
+
+  .vest__dot-inner {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+  }
+
+  .vest__dot-inner_first {
+    top: -6px;
+    left: -7px;
+
+  }
+
+  .vest__dot-inner_second {
+    bottom: -6px;
+    right: -6px;
+
+  }
+
+  .vest__link:hover > .vest__image_active {
+    opacity: 1;
+    transition-duration: .15s;
+  }
+
+  .vest__link:hover > .vest__dot {
+    border-color: #6e9f26;
+    transition-duration: .15s;
+  }
+
+  .vest__link:hover > .vest__dot ~ .vest__dot-inner {
+    background-color: #6e9f26;
+    transition-duration: .15s;
+  }
+
+  .vest__link:hover > .vest-text {
+    color: #6e9f26;
+    transition-duration: .15s;
+  }
+
+  .vest__shoulders-image {
+    width: 234px;
+    height: 85px;
+    top: 27px;
+    left: 160px;
+  }
+
+  .vest__shoulders-text {
+    top: 5px;
+    left: 50px;
+  }
+
+  .vest__shoulders-dot {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    border-top: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 22px;
+    left: 160px;
+    cursor: pointer;
+  }
+
+  .vest__throat-image {
+    width: 151px;
+    height: 79px;
+    top: 0;
+    left: 195px;
+    z-index: 2;
+  }
+
+  .vest__throat-text {
+    top: 10px;
+    left: 400px;
+  }
+
+  .vest__throat-dot {
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    border-top: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 15px;
+    left: 320px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .vest__front-image {
+    width: 220px;
+    height: 323px;
+    top: 67px;
+    left: 132px;
+    z-index: 1;
+  }
+
+  .vest__front-text {
+    top: 400px;
+    left: 400px;
+  }
+
+  .vest__front-dot {
+    position: absolute;
+    width: 60px;
+    height: 66px;
+    border-bottom: 3px solid #cccccc;
+    border-left: 3px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 350px;
+    left: 325px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .vest__back-image {
+    width: 81px;
+    height: 172px;
+    top: 50px;
+    left: 315px;
+  }
+
+  .vest__back-text {
+    top: 250px;
+    left: 450px;
+  }
+
+  .vest__back-dot {
+    position: absolute;
+    width: 60px;
+    height: 66px;
+    border-bottom: 3px solid #cccccc;
+    border-left: 3px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 200px;
+    left: 375px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .vest__cummerband-image {
+    width: 86px;
+    height: 166px;
+    top: 216px;
+    left: 329px;
+  }
+
+  .vest__cummerband-text {
+    top: 350px;
+    left: 450px;
+  }
+
+  .vest__cummerband-dot {
+    position: absolute;
+    width: 60px;
+    height: 67px;
+    border-bottom: 3px solid #cccccc;
+    border-left: 3px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    top: 300px;
+    left: 375px;
+    cursor: pointer;
+  }
+
+  .vest__groin-pad-image {
+    width: 170px;
+    height: 222px;
+    top: 322px;
+    left: 151px;
+  }
+
+  .vest__groin-pad-text {
+    top: 455px;
+    left: 350px;
+  }
+
+  .vest__groin-pad-dot {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    border-top: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-top-right-radius: 20px;
+    top: 450px;
+    left: 270px;
+    cursor: pointer;
+  }
 }
 
-.vest-text {
+
+@media (min-width: 1140px) {
+  .content__container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  .vest__block {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .vest__block ~ * {
+    transition-duration: 0.15s;
+  }
+
+  .vest__link {
+    display: block;
+    transition-duration: 0.15s;
+  }
+
+  .vest-text {
     position: absolute;
 
     text-transform: uppercase;
@@ -26,44 +375,44 @@
     font-weight: 600;
     text-decoration: none;
     color: black;
-}
+  }
 
-.vest-text:hover {
+  .vest-text:hover {
     color: #6e9f26;
-}
+  }
 
-.content__image {
+  .content__image {
     position: relative;
     width: 1100px;
     height: 1100px;
     background: url("https://grey-shop.ru/image/catalog/atom-vest/vest_full.png") no-repeat;
-}
+  }
 
-.vest__image {
+  .vest__image {
     position: absolute;
     cursor: pointer;
-}
+  }
 
-.vest__arms-image_right {
+  .vest__arms-image_right {
     left: 750px;
     top: 80px;
-}
+  }
 
-.vest__arms-image_left {
+  .vest__arms-image_left {
     left: 177px;
     top: 125px;
-}
+  }
 
-.vest__image_active {
+  .vest__image_active {
     opacity: 0;
-}
+  }
 
-.vest__arms-text {
+  .vest__arms-text {
     top: 110px;
     left: 100px;
-}
+  }
 
-.vest__arms-dot {
+  .vest__arms-dot {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -73,9 +422,9 @@
     top: 200px;
     left: 170px;
     cursor: pointer;
-}
+  }
 
-.vest__dot-inner {
+  .vest__dot-inner {
     content: "";
     display: block;
     position: absolute;
@@ -83,51 +432,51 @@
     height: 20px;
     border-radius: 50%;
     background-color: #cccccc;
-}
+  }
 
-.vest__dot-inner_first {
+  .vest__dot-inner_first {
     top: -12px;
     left: -12px;
 
-}
+  }
 
-.vest__dot-inner_second {
+  .vest__dot-inner_second {
     bottom: -12px;
     right: -12px;
 
-}
+  }
 
-.vest__link:hover > .vest__image_active {
+  .vest__link:hover > .vest__image_active {
     opacity: 1;
     transition-duration: .15s;
-}
+  }
 
-.vest__link:hover > .vest__dot {
+  .vest__link:hover > .vest__dot {
     border-color: #6e9f26;
     transition-duration: .15s;
-}
+  }
 
-.vest__link:hover > .vest__dot ~ .vest__dot-inner {
+  .vest__link:hover > .vest__dot ~ .vest__dot-inner {
     background-color: #6e9f26;
     transition-duration: .15s;
-}
+  }
 
-.vest__link:hover > .vest-text {
+  .vest__link:hover > .vest-text {
     color: #6e9f26;
     transition-duration: .15s;
-}
+  }
 
-.vest__shoulders-image {
+  .vest__shoulders-image {
     top: 52px;
     left: 321px;
-}
+  }
 
-.vest__shoulders-text {
+  .vest__shoulders-text {
     top: 10px;
     left: 100px;
-}
+  }
 
-.vest__shoulders-dot {
+  .vest__shoulders-dot {
     position: absolute;
     width: 50px;
     height: 80px;
@@ -137,20 +486,20 @@
     top: 42px;
     left: 305px;
     cursor: pointer;
-}
+  }
 
-.vest__throat-image {
+  .vest__throat-image {
     top: 0;
     left: 390px;
     z-index: 2;
-}
+  }
 
-.vest__throat-text {
+  .vest__throat-text {
     top: 10px;
     left: 800px;
-}
+  }
 
-.vest__throat-dot {
+  .vest__throat-dot {
     position: absolute;
     width: 140px;
     height: 20px;
@@ -161,20 +510,20 @@
     left: 640px;
     cursor: pointer;
     z-index: 2;
-}
+  }
 
-.vest__front-image {
+  .vest__front-image {
     top: 134px;
     left: 264px;
     z-index: 1;
-}
+  }
 
-.vest__front-text {
+  .vest__front-text {
     top: 800px;
     left: 800px;
-}
+  }
 
-.vest__front-dot {
+  .vest__front-dot {
     position: absolute;
     width: 120px;
     height: 133px;
@@ -185,19 +534,19 @@
     left: 650px;
     cursor: pointer;
     z-index: 1;
-}
+  }
 
-.vest__back-image {
+  .vest__back-image {
     top: 100px;
     left: 630px;
-}
+  }
 
-.vest__back-text {
+  .vest__back-text {
     top: 500px;
     left: 900px;
-}
+  }
 
-.vest__back-dot {
+  .vest__back-dot {
     position: absolute;
     width: 120px;
     height: 133px;
@@ -208,19 +557,19 @@
     left: 750px;
     cursor: pointer;
     z-index: 1;
-}
+  }
 
-.vest__cummerband-image {
+  .vest__cummerband-image {
     top: 431px;
     left: 657px;
-}
+  }
 
-.vest__cummerband-text {
+  .vest__cummerband-text {
     top: 700px;
     left: 900px;
-}
+  }
 
-.vest__cummerband-dot {
+  .vest__cummerband-dot {
     position: absolute;
     width: 120px;
     height: 133px;
@@ -230,19 +579,19 @@
     top: 600px;
     left: 750px;
     cursor: pointer;
-}
+  }
 
-.vest__groin-pad-image {
+  .vest__groin-pad-image {
     top: 645px;
     left: 303px;
-}
+  }
 
-.vest__groin-pad-text {
+  .vest__groin-pad-text {
     top: 910px;
     left: 700px;
-}
+  }
 
-.vest__groin-pad-dot {
+  .vest__groin-pad-dot {
     position: absolute;
     width: 140px;
     height: 20px;
@@ -252,4 +601,5 @@
     top: 918px;
     left: 540px;
     cursor: pointer;
+  }
 }

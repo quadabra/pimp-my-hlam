@@ -13,7 +13,7 @@
 
   .longsleeve__header > a {
     text-decoration: none;
-    color: #3264be;
+    color: #0b172e;
   }
 
   .longsleeve__content {
@@ -67,7 +67,7 @@
 
     margin-top: 10px;
 
-    color: #3264be;
+    color: #0b172e;
     text-transform: none;
     line-height: 22px;
     transition-duration: .15s;
@@ -108,7 +108,7 @@
 
   .longsleeve__header>a {
     text-decoration: none;
-    color: #3264be;
+    color: #0b172e;
   }
 
   .longsleeve__content {
@@ -180,7 +180,7 @@
     height: 0;
     max-height: 150px;
     overflow: hidden;
-    color: #3264be;
+    color: #0b172e;
     font-size: 0;
     opacity: 0;
     transition-duration: .15s;
@@ -331,7 +331,7 @@
 
   .longsleeve__header > a {
     text-decoration: none;
-    color: #3264be;
+    color: #0b172e;
   }
 
   .longsleeve__content {
@@ -403,7 +403,7 @@
     height: 0;
     max-height: 150px;
     overflow: hidden;
-    color: #3264be;
+    color: #0b172e;
     font-size: 0;
     opacity: 0;
     transition-duration: .15s;

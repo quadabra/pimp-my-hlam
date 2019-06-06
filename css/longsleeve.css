@@ -1,0 +1,530 @@
+@media (max-width: 767px) {
+  .longsleeve__container {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .longsleeve__header {
+    margin: 0 auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .longsleeve__header > a {
+    text-decoration: none;
+    color: #3264be;
+  }
+
+  .longsleeve__content {
+    padding-top: 340px;
+    width: 320px;
+    height: 700px;
+    background: url("https://grey-shop.ru/image/catalog/yanus_fabric/Longsleeve_full.png") no-repeat;
+    background-size: contain;
+  }
+
+  .longsleeve__image {
+    display: none;
+  }
+
+  .longsleeve__block {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .longsleeve__dot {
+    display: none;
+  }
+
+  .longsleeve-title {
+    display: block;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(60, 120, 232);
+    border-radius: 25px;
+    color: #efefef;
+    text-transform: uppercase;
+  }
+
+  .longsleeve__block-item {
+    margin: 10px auto;
+    width: 300px;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .longsleeve-description {
+    box-sizing: border-box;
+    height: 0;
+    overflow: hidden;
+
+    margin-top: 10px;
+
+    color: #3264be;
+    text-transform: none;
+    line-height: 22px;
+    transition-duration: .15s;
+  }
+
+  .longsleeve__block-item:hover > .longsleeve-description {
+    height: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .longsleeve__block-item:focus > .longsleeve-description {
+    height: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .longsleeve__block-item:focus > .longsleeve-title,
+  .longsleeve__block-item:hover > .longsleeve-title {
+    background-color: #3264be;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1139px) {
+  .longsleeve__container {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .longsleeve__header {
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .longsleeve__header>a {
+    text-decoration: none;
+    color: #3264be;
+  }
+
+  .longsleeve__content {
+    width: 550px;
+    height: 550px;
+    background: url("https://grey-shop.ru/image/catalog/yanus_fabric/Longsleeve_full.png") no-repeat;
+    background-size: contain;
+  }
+
+  .longsleeve__block {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .longsleeve__image {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .longsleeve__image_active {
+    opacity: 0;
+    transition-duration: .15s;
+  }
+
+  .longsleeve__dot {
+    position: absolute;
+    border-top: 4px solid #cccccc;
+    border-right: 4px solid #cccccc;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition-duration: .15s
+  }
+
+  .longsleeve__dot-inner {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    transition-duration: .15s;
+  }
+
+  .longsleeve__dot-inner_first {
+    top: -9px;
+    left: -9px;
+  }
+
+  .longsleeve__dot-inner_second {
+    bottom: -9px;
+    right: -9px;
+  }
+
+  .longsleeve-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    max-width: 180px;
+    cursor: pointer;
+    transition-duration: .15s;
+  }
+
+  .longsleeve-description {
+    position: absolute;
+    width: 0;
+    height: 0;
+    max-height: 150px;
+    overflow: hidden;
+    color: #3264be;
+    font-size: 0;
+    opacity: 0;
+    transition-duration: .15s;
+    background: rgba(204, 204, 204, .4);
+    z-index: 1;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve__image_active,
+  .longsleeve__block-item:focus>.longsleeve__image_active {
+    opacity: 1;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve-title,
+  .longsleeve__block-item:focus>.longsleeve-title {
+    color: #6e9f26;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve-description,
+  .longsleeve__block-item:focus>.longsleeve-description {
+    height: auto;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 12px;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve__dot,
+  .longsleeve__block-item:focus>.longsleeve__dot {
+    border-color: #6e9f26;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve__dot>.longsleeve__dot-inner,
+  .longsleeve__block-item:focus>.longsleeve__dot>.longsleeve__dot-inner {
+    background-color: #6e9f26;
+  }
+
+  .longsleeve__fabric_upper {
+    width: 213px;
+    height: 91px;
+    top: 78px;
+    left: 151px;
+  }
+
+  .longsleeve__fabric__arm {
+    width: 40px;
+    height: 96px;
+    top: 247px;
+    left: 427px;
+  }
+
+  .longsleeve__fabric-dot {
+    width: 50px;
+    height: 40px;
+    left: 140px;
+    top: 90px;
+  }
+
+  .longsleeve__fabric-title {
+    top: 70px;
+    left: 0;
+  }
+
+  .longsleeve__fabric-description {
+    top: 110px;
+    left: 0;
+  }
+
+  .longsleeve__body {
+    width: 211px;
+    height: 353px;
+    top: 120px;
+    left: 151px;
+  }
+
+  .longsleeve__body-dot {
+    width: 100px;
+    height: 25px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    left: 300px;
+    top: 405px;
+  }
+
+  .longsleeve__body-title {
+    top: 390px;
+    left: 365px;
+  }
+
+  .longsleeve__body-description {
+    top: 440px;
+    left: 360px;
+  }
+
+  .longsleeve__arm_left {
+    width: 82px;
+    height: 287px;
+    top: 145px;
+    left: 94px;
+  }
+
+  .longsleeve__arm_right {
+    width: 145px;
+    height: 292px;
+    top: 126px;
+    left: 317px;
+  }
+
+  .longsleeve__arms-dot {
+    width: 90px;
+    height: 25px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    left: 400px;
+    top: 225px;
+  }
+
+  .longsleeve__arms-title {
+    top: 250px;
+    left: 480px;
+  }
+
+  .longsleeve__arms-description {
+    top: 100px;
+    left: 450px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .longsleeve__container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+  .longsleeve__header {
+    margin: 0 auto;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .longsleeve__header > a {
+    text-decoration: none;
+    color: #3264be;
+  }
+
+  .longsleeve__content {
+    width: 1100px;
+    height: 1100px;
+    background: url("https://grey-shop.ru/image/catalog/yanus_fabric/Longsleeve_full.png") no-repeat;
+    background-size: contain;
+  }
+
+  .longsleeve__block {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .longsleeve__image {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .longsleeve__image_active {
+    opacity: 0;
+    transition-duration: .15s;
+  }
+
+  .longsleeve__dot {
+    position: absolute;
+    border-top: 4px solid #cccccc;
+    border-right: 4px solid #cccccc;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition-duration: .15s
+  }
+
+  .longsleeve__dot-inner {
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    transition-duration: .15s;
+  }
+
+    .longsleeve__dot-inner_first {
+      top: -9px;
+      left: -9px;
+    }
+
+    .longsleeve__dot-inner_second {
+      bottom: -9px;
+      right: -9px;
+    }
+
+  .longsleeve-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    max-width: 180px;
+    cursor: pointer;
+    transition-duration: .15s;
+  }
+
+  .longsleeve-description {
+    position: absolute;
+    width: 0;
+    height: 0;
+    max-height: 150px;
+    overflow: hidden;
+    color: #3264be;
+    font-size: 0;
+    opacity: 0;
+    transition-duration: .15s;
+    background: rgba(204, 204, 204, .4);
+    z-index: 1;
+  }
+
+.longsleeve__block-item:hover>.longsleeve__image_active,
+.longsleeve__block-item:focus>.longsleeve__image_active {
+  opacity: 1;
+}
+
+.longsleeve__block-item:hover>.longsleeve-title,
+.longsleeve__block-item:focus>.longsleeve-title {
+  color: #6e9f26;
+}
+
+  .longsleeve__block-item:hover > .longsleeve-description,
+  .longsleeve__block-item:focus > .longsleeve-description {
+    height: auto;
+    width: 220px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 18px;
+  }
+
+  .longsleeve__block-item:hover > .longsleeve__dot,
+  .longsleeve__block-item:focus > .longsleeve__dot {
+    border-color: #6e9f26;
+  }
+
+  .longsleeve__block-item:hover>.longsleeve__dot>.longsleeve__dot-inner,
+  .longsleeve__block-item:focus>.longsleeve__dot>.longsleeve__dot-inner {
+    background-color: #6e9f26;
+  }
+
+  .longsleeve__fabric_upper {
+    top: 156px;
+    left: 302px;
+  }
+
+  .longsleeve__fabric__arm {
+    top: 494px;
+    left: 854px;
+  }
+
+  .longsleeve__fabric-dot {
+    width: 100px;
+    height: 80px;
+    left: 270px;
+    top: 200px;
+  }
+
+  .longsleeve__fabric-title {
+    top: 160px;
+    left: 60px;
+  }
+
+  .longsleeve__fabric-description {
+    top: 220px;
+    left: 60px;
+  }
+
+  .longsleeve__body {
+    top: 240px;
+    left: 302px;
+  }
+
+  .longsleeve__body-dot {
+    width: 200px;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    left: 600px;
+    top: 850px;
+  }
+
+  .longsleeve__body-title {
+    top: 840px;
+    left: 730px;
+  }
+
+  .longsleeve__body-description {
+    top: 720px;
+    left: 780px;
+  }
+
+  .longsleeve__arm_left {
+    top: 290px;
+    left: 188px;
+  }
+
+  .longsleeve__arm_right {
+    top: 252px;
+    left: 634px;
+  }
+
+  .longsleeve__arms-dot {
+    width: 180px;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    border-bottom-left-radius: 20px;
+    left: 800px;
+    top: 450px;
+  }
+
+  .longsleeve__arms-title {
+    top: 440px;
+    left: 920px;
+  }
+
+  .longsleeve__arms-description {
+    top: 240px;
+    left: 900px;
+  }
+}

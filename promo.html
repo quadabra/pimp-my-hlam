@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>main</title>
+</head>
+<body>
+<style>
+  .promo-block {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+
+  .promo-card {
+    margin: 20px;
+    display: flex;
+    flex-shrink: 0;
+    width: 320px;
+    height: 120px;
+    background-color: #a6a6a6;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(166, 166, 166, 0.6);
+    transition-duration: .15s;
+  }
+
+  .promo-card__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: auto 10px;
+  }
+
+  .promo-card__text-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo-card:hover,
+  .promo-card:focus,
+  .promo-card:active {
+    transform: translateX(-1px) translateY(-1px);
+    box-shadow: 4px 4px 6px rgba(166, 166, 166, 0.5);
+  }
+
+  .card-dhl:hover,
+  .card-dhl:focus {
+    background-color: #ffbf00;
+  }
+
+  .card-dhl:active {
+    background-color: #E2AD00;
+  }
+
+  .card-paypal:hover,
+  .card-paypal:focus {
+    background-color: #007ecc;
+  }
+
+  .card-paypal:active {
+    background-color: #006bb2;
+  }
+
+  .card-help:hover,
+  .card-help:focus {
+    background-color: #6cbf3a;
+  }
+
+  .card-help:active {
+    background-color: #5fae35;
+  }
+</style>
+<div class="promo-block">
+<!--  dhl-->
+  <a class="promo-card card-dhl" href="#">
+    <div class="promo-card__image-container">
+      <img class="promo-card__image" src="https://grey-shop.ru/image/catalog/promo-info/dhl.png" alt="dhl logo">
+    </div>
+    <div class="promo-card__text-container">
+      <h3 class="promo-card__title">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/dhl-text.svg" alt="WorldWide Shipping">
+      </h3>
+      <p class="promo-card__text">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/dhl-title.svg" alt="2 days delivery with dhl">
+      </p>
+    </div>
+  </a>
+
+  <a class="promo-card card-paypal" href="#">
+    <div class="promo-card__image-container">
+      <img class="promo-card__image" src="https://grey-shop.ru/image/catalog/promo-info/paypal.png" alt="paypal logo">
+    </div>
+    <div class="promo-card__text-container">
+      <h3 class="promo-card__title">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/paypal-title.svg" alt="WorldWide Shipping">
+      </h3>
+      <p class="promo-card__text">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/paypal-text.svg" alt="2 days delivery with dhl">
+      </p>
+    </div>
+  </a>
+
+  <a class="promo-card card-help" href="#">
+    <div class="promo-card__image-container">
+      <img class="promo-card__image" src="https://grey-shop.ru/image/catalog/promo-info/help.png" alt="we help">
+    </div>
+    <div class="promo-card__text-container">
+      <h3 class="promo-card__title">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/help-title.svg" alt="WorldWide Shipping">
+      </h3>
+      <p class="promo-card__text">
+        <img src="https://grey-shop.ru/image/catalog/promo-info/help-text.svg" alt="2 days delivery with dhl">
+      </p>
+    </div>
+  </a>
+</div>
+</body>
+</html>

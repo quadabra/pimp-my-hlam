@@ -147,15 +147,176 @@
     </div>
   </a>
 </div>
+
+<!--reviews-->
+
 <style>
   .reviews-block {
     max-width: 1100px;
     margin: 0 auto;
+    display: flex;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .reviews-image > img {
+    display: block;
+  }
+
+  .reviews-description {
+    padding-left: 30px;
+  }
+
+  .reviews-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Signika Negative", sans-serif;
+  }
+
+  .reviews-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Signika Negative", sans-serif;
+  }
+
+  .reviews-link {
+    margin: 50px auto;
+    display: block;
+    height: 50px;
+    width: 400px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    line-height: 50px;
+    background-color: #6cbf3a;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 27px;
+    box-shadow: 3px 3px 3px rgba(166, 166, 166, 0.5);
+    transition-duration: .15s;
+  }
+
+  .reviews-link:hover,
+  .reviews-link:focus {
+    background-color: #6e9f26;
+  }
+
+  @media (max-width: 1100px) {
+    .reviews-block {
+      max-width: 760px;
+      margin: 0 auto;
+      display: flex;
+      border: 1px solid #a6a6a6;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .reviews-image > img {
+      display: block;
+      width: 294px;
+      height: auto;
+    }
+
+    .reviews-description {
+      padding-left: 40px;
+    }
+
+    .reviews-title {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: "Signika Negative", sans-serif;
+    }
+
+    .reviews-text {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: "Signika Negative", sans-serif;
+    }
+
+    .reviews-link {
+      margin: 20px auto 0 auto;
+      display: block;
+      height: 30px;
+      width: 300px;
+      font-family: "Signika Negative", sans-serif;
+      font-size: 16px;
+      line-height: 30px;
+      background-color: #6cbf3a;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      border-radius: 27px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .reviews-block {
+      max-width: 320px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #a6a6a6;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .reviews-image > img {
+      display: block;
+      width: 320px;
+      height: auto;
+    }
+
+    .reviews-description {
+      padding: 10px;
+    }
+
+    .reviews-title {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: "Signika Negative", sans-serif;
+    }
+
+    .reviews-text {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: "Signika Negative", sans-serif;
+    }
+
+    .reviews-link {
+      margin: 50px auto;
+      display: block;
+      height: 30px;
+      width: 300px;
+      font-family: "Signika Negative", sans-serif;
+      font-size: 14px;
+      line-height: 30px;
+      background-color: #6cbf3a;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      border-radius: 27px;
+    }
   }
 </style>
 <div class="reviews-block">
   <div class="reviews-image">
     <img src="https://grey-shop.ru/image/catalog/promo-info/reviews.jpg" alt="">
+  </div>
+  <div class="reviews-description">
+    <h3 class="reviews-title">
+      Check out reviews
+    </h3>
+    <p class="reviews-text">
+      Grey-Shop is the most reliable <br/>
+      russian gear shop in the world
+      <br/> <br/>
+      Check hunderds of reviews on our shop!
+    </p>
+    <a class="reviews-link" href="#">Check reviews</a>
   </div>
 </div>
 </body>

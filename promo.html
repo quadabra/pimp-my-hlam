@@ -25,6 +25,7 @@
     border-radius: 6px;
     box-shadow: 3px 3px 5px rgba(166, 166, 166, 0.6);
     transition-duration: .15s;
+    text-decoration: none;
   }
 
   .promo-card__image-container {
@@ -43,7 +44,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  .promo-card__title,
+  .promo-card__text {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .promo-card__title {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .promo-card__text {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 500;
   }
 
   .promo-card:hover,
@@ -88,10 +108,11 @@
     </div>
     <div class="promo-card__text-container">
       <h3 class="promo-card__title">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/dhl-text.svg" alt="WorldWide Shipping">
+        Worldwide shipping
       </h3>
       <p class="promo-card__text">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/dhl-title.svg" alt="2 days delivery with dhl">
+        1-2 days delivery <br/>
+        e-packet, dhl, airmail
       </p>
     </div>
   </a>
@@ -102,10 +123,11 @@
     </div>
     <div class="promo-card__text-container">
       <h3 class="promo-card__title">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/paypal-title.svg" alt="WorldWide Shipping">
+        We accept paypal
       </h3>
       <p class="promo-card__text">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/paypal-text.svg" alt="2 days delivery with dhl">
+        Secured payments <br/>
+        provided by paypal
       </p>
     </div>
   </a>
@@ -116,13 +138,25 @@
     </div>
     <div class="promo-card__text-container">
       <h3 class="promo-card__title">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/help-title.svg" alt="WorldWide Shipping">
+        Need help?
       </h3>
       <p class="promo-card__text">
-        <img src="https://grey-shop.ru/image/catalog/promo-info/help-text.svg" alt="2 days delivery with dhl">
+        We speak 3 languages <br/>
+        English, French, Russian
       </p>
     </div>
   </a>
+</div>
+<style>
+  .reviews-block {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+</style>
+<div class="reviews-block">
+  <div class="reviews-image">
+    <img src="https://grey-shop.ru/image/catalog/promo-info/reviews.jpg" alt="">
+  </div>
 </div>
 </body>
 </html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>main</title>
+</head>
+<body>
+<style>
+  .suit-block {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .bg-suit {
+    width: 480px;
+    height: 910px;
+    background: url("https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_bg.png") no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .suit-list {
+    margin: 100px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .suit-image {
+    position: absolute;
+  }
+
+  .suit-image_active {
+    opacity: 0;
+  }
+
+  .suit-element {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .suit-element:hover > .suit-image_active{
+    opacity: 1;
+  }
+
+  .suit-title {
+    width: 200px;
+    position: relative;
+    transform: translateX(400px);
+    color: #000;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
+    margin: 50px 10px;
+    text-transform: uppercase;
+    text-align: right;
+    transition-duration: .15s;
+  }
+
+  .suit-element:hover > .suit-title {
+    color: #6e9f26;
+  }
+
+  .image-helmet {
+    top: 8px;
+    left: 124px;
+  }
+
+  .image-glasses {
+    top: 31px;
+    left: 125px;
+  }
+
+  .image-face {
+    top: 78px;
+    left: 138px;
+  }
+
+  .image-body {
+    top: 145px;
+    left: 10px;
+  }
+
+  .image-armor {
+    top: 109px;
+    left: 100px;
+  }
+
+  .image-vest {
+    top: 137px;
+    left: 28px;
+  }
+
+  .image-feet {
+    top: 746px;
+    left: 10px;
+  }
+
+  @media (max-width: 1199px) {
+    .suit-block {
+      width: 768px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .suit-block {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .suit-image {
+      display: none;
+    }
+
+    .bg-suit {
+      margin: 0 auto;
+      width: 300px;
+      height: 1000px;
+      background-size: 240px;
+      background-position-x: center;
+    }
+
+    .suit-list {
+      margin-top: 470px;
+    }
+
+    .suit-title {
+      transform: none;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      line-height: 50px;
+      background-color: #3c78e8;
+      margin: 10px 0;
+      color: #fff;
+      font-size: 16px;
+      box-shadow: 4px 4px 6px rgba(166, 166, 166, 0.5);
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .suit-title:hover,
+    .suit-title:focus,
+    .suit-title:active {
+      transform: translateX(2px) translateY(2px);
+      box-shadow: 2px 2px 4px rgba(166, 166, 166, 0.5);
+    }
+  }
+</style>
+<div class="suit-block">
+  <div class="bg-suit">
+    <ul class="suit-list">
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">Helmet</h4>
+          <img class="suit-image image-helmet" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_helmet.png" alt="">
+          <img class="suit-image image-helmet suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_helmet_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">Glasses</h4>
+          <img class="suit-image image-glasses" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_glasses.png" alt="">
+          <img class="suit-image image-glasses suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_glasses_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">Balalayka</h4>
+          <img class="suit-image image-face" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_balaklava.png" alt="">
+          <img class="suit-image image-face suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_balaklava_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">suit</h4>
+          <img class="suit-image image-body" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_suit.png" alt="">
+          <img class="suit-image image-body suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_suit_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">armor</h4>
+          <img class="suit-image image-armor" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_6b23.png" alt="">
+          <img class="suit-image image-armor suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_6b23_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">vest</h4>
+          <img class="suit-image image-vest" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_vest.png" alt="">
+          <img class="suit-image image-vest suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_vest_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element" href="#">
+          <h4 class="suit-title">feet</h4>
+          <img class="suit-image image-feet" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_boots.png" alt="">
+          <img class="suit-image image-feet suit-image_active" src="https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_boots_active.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

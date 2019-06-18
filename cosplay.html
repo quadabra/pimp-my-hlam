@@ -12,7 +12,6 @@
     width: 1200px;
     height: 720px;
     position: relative;
-    border: 1px solid #cccccc;
   }
 
   .cosplay-block__title {
@@ -27,30 +26,231 @@
     font-size: 90px;
   }
 
+  .cosplay-element {
+    text-decoration: none;
+  }
+
+  .cosplay-element__title {
+    position: absolute;
+    color: #000000;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
   .cosplay-element__image {
     position: absolute;
+    transition-duration: .15s;
   }
 
   .image_stalker {
     left: 100px;
   }
 
-  .image_
+  .image_goptac {
+    left: 420px;
+  }
+
+  .image_kapkan {
+    left: 760px;
+  }
+
+  .title_stalker {
+    left: 10px;
+  }
+
+  .title_gop {
+    left: 615px;
+    top: 390px;
+  }
+
+  .title_kapkan {
+    top: 0;
+    left: 980px;
+  }
+
+  .cosplay-element__image_active {
+    opacity: 0;
+  }
+
+  .cosplay-element:hover > .cosplay-element__image_active {
+    opacity: 1;
+  }
+
+  .cosplay-element:hover > .cosplay-element__title {
+    color: #6e9f26;
+  }
+
+  .cosplay-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-family: "Signika Negative", sans-serif;
+  }
+
+  .cosplay-link:hover,
+  .cosplay-link:focus {
+    color: #6e9f26;
+  }
+
+  @media (max-width: 1199px) {
+    .cosplay-block {
+      width: 600px;
+      height: 360px;
+    }
+
+    .image_stalker {
+      left: 50px;
+      width: 148px;
+      height: 360px;
+    }
+
+    .image_goptac {
+      left: 210px;
+      width: 148px;
+      height: 360px;
+    }
+
+    .image_kapkan {
+      left: 380px;
+      width: 148px;
+      height: 360px;
+    }
+
+    .title_stalker {
+      left: 10px;
+    }
+
+    .title_gop {
+      left: 305px;
+      top: 195px;
+    }
+
+    .title_kapkan {
+      top: 0;
+      left: 490px;
+    }
+
+    .cosplay-block__title {
+      font-size: 45px;
+      left: -100px;
+      top: 180px;
+    }
+
+    .cosplay-element__title {
+      font-size: 14px;
+    }
+
+    .cosplay-link {
+      font-size: 12px;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .cosplay-block {
+      width: 320px;
+      height: 1460px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cosplay-element {
+      width: 100%;
+      position: relative;
+      height: 460px;
+    }
+
+    .cosplay-element__image {
+      display: block;
+      position: absolute;
+      top: 40px;
+    }
+
+    .cosplay-element__title {
+      margin:0 0 30px 0;
+      position: static;
+    }
+
+    .image_stalker {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 148px;
+      height: 360px;
+    }
+
+    .image_goptac {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 148px;
+      height: 360px;
+    }
+
+    .image_kapkan {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 148px;
+      height: 360px;
+    }
+
+    .title_stalker {
+      left: 10px;
+    }
+
+    .title_gop {
+      left: 305px;
+      top: 195px;
+    }
+
+    .title_kapkan {
+      top: 0;
+      left: 490px;
+    }
+
+    .cosplay-block__title {
+      position: static;
+      transform: rotate(0deg);
+      font-size: 45px;
+      width: 100%;
+      text-align: right;
+      margin-bottom: 30px;
+    }
+
+    .cosplay-element__title {
+      font-size: 14px;
+    }
+
+    .cosplay-link {
+      font-size: 12px;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
 </style>
 <div class="cosplay-block">
   <h3 class="cosplay-block__title">COSPLAY</h3>
   <a class="cosplay-element" href="#">
+    <h4 class="cosplay-element__title title_stalker">STALKER</h4>
     <img class="cosplay-element__image image_stalker" src="https://grey-shop.ru/image/catalog/cosplay-promo/stalker.png" alt="stalker suit">
     <img class="cosplay-element__image image_stalker cosplay-element__image_active" src="https://grey-shop.ru/image/catalog/cosplay-promo/stalker_active.png" alt="stalker suit highlight">
   </a>
   <a class="cosplay-element" href="#">
+    <h4 class="cosplay-element__title title_gop">GOP TAC</h4>
     <img class="cosplay-element__image image_goptac" src="https://grey-shop.ru/image/catalog/cosplay-promo/gop.png" alt="gop-tac suit">
     <img class="cosplay-element__image image_goptac cosplay-element__image_active" src="https://grey-shop.ru/image/catalog/cosplay-promo/gop_active.png" alt="gop-tac suit highlight">
   </a>
   <a class="cosplay-element" href="#">
-    <img class="cosplay-element__image image_kapkan" src="https://grey-shop.ru/image/catalog/cosplay-promo/gop.png" alt="kapkan suit">
-    <img class="cosplay-element__image image_kapkan cosplay-element__image_active" src="https://grey-shop.ru/image/catalog/cosplay-promo/gop_active.png" alt="kapkan suit highlight">
+    <h4 class="cosplay-element__title title_kapkan">KAPKAN</h4>
+    <img class="cosplay-element__image image_kapkan" src="https://grey-shop.ru/image/catalog/cosplay-promo/kapkan.png" alt="kapkan suit">
+    <img class="cosplay-element__image image_kapkan cosplay-element__image_active" src="https://grey-shop.ru/image/catalog/cosplay-promo/kapkan_active.png" alt="kapkan suit highlight">
   </a>
+  <a class="cosplay-link" href="#">AND MORE...</a>
 </div>
 
 </body>

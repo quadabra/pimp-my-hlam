@@ -8,6 +8,7 @@
 <body>
 <style>
   .suit-block {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -19,6 +20,30 @@
     background: url("https://grey-shop.ru/image/catalog/promo-suits/vezhlivyi_bg.png") no-repeat;
     background-size: contain;
     position: relative;
+  }
+
+  .block-title {
+    width: 600px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 800;
+    position: absolute;
+    transform: rotate(90deg);
+    left: 700px;
+    top: 250px;
+  }
+
+  .block-footer-text {
+    max-width: 700px;
+    max-height: 300px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   .suit-list {
@@ -40,14 +65,14 @@
     color: #000;
   }
 
-  .suit-element:hover > .suit-image_active{
+  .suit-element:hover > .suit-image_active {
     opacity: 1;
   }
 
   .suit-title {
     width: 200px;
     position: relative;
-    transform: translateX(400px);
+    transform: translateX(550px);
     color: #000;
     font-family: "Signika Negative", sans-serif;
     font-size: 24px;
@@ -100,12 +125,45 @@
     .suit-block {
       width: 768px;
     }
+
+    .suit-title {
+      transform: translateX(400px);
+      font-size: 18px;
+    }
+
+    .suit-list {
+      margin-top: 200px;
+    }
+
+    .block-title {
+      width: 600px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 60px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: 400px;
+      top: 450px;
+    }
+
+    .block-footer-text {
+      max-width: 700px;
+      max-height: 300px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   }
 
   @media (max-width: 767px) {
     .suit-block {
       width: 300px;
-      margin: 0 auto;
+      margin: 50px auto 0 auto;
     }
 
     .suit-image {
@@ -115,9 +173,26 @@
     .bg-suit {
       margin: 0 auto;
       width: 300px;
-      height: 1000px;
+      height: 900px;
       background-size: 240px;
       background-position-x: center;
+    }
+
+    .block-title {
+      width: 180px;
+      margin: 0;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: 185px;
+      top: 75px;
+    }
+
+    .block-footer-text {
+      display: none;
     }
 
     .suit-list {
@@ -148,6 +223,9 @@
   }
 </style>
 <div class="suit-block">
+  <h3 class="block-title">
+    BE polite
+  </h3>
   <div class="bg-suit">
     <ul class="suit-list">
       <li>
@@ -201,6 +279,7 @@
       </li>
     </ul>
   </div>
+  <p class="block-footer-text">ololo nlo</p>
 </div>
 </body>
 </html>

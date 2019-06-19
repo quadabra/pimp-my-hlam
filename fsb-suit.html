@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>main</title>
+</head>
+<body>
+<style>
+  .suit-block-fsb {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+  }
+
+  .bg-suit-fsb {
+    margin-left: auto;
+    width: 480px;
+    height: 950px;
+    background: url("https://grey-shop.ru/image/catalog/promo-suits/febes_bg.png") no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .block-title-fsb {
+    width: 600px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 800;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -200px;
+    top: 250px;
+  }
+
+  .block-footer-text-fsb {
+    max-width: 700px;
+    max-height: 300px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .suit-list-fsb {
+    margin: 100px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .suit-image-fsb {
+    position: absolute;
+    transition-duration: .15s;
+  }
+
+  .suit-image_active-fsb {
+    opacity: 0;
+  }
+
+  .suit-element-fsb {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .suit-element-fsb:hover > .suit-image_active-fsb {
+    opacity: 1;
+  }
+
+  .suit-title-fsb {
+    width: 200px;
+    position: relative;
+    transform: translateX(-250px);
+    color: #000;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
+    margin: 50px 10px;
+    text-transform: uppercase;
+    text-align: left;
+    transition-duration: .15s;
+  }
+
+  .suit-element-fsb:hover > .suit-title-fsb {
+    color: #6e9f26;
+  }
+
+  .image-helmet-fsb {
+    top: 11px;
+    left: 160px;
+  }
+
+  .image-gun-fsb {
+    top: 88px;
+    left: 146px;
+  }
+
+  .image-body-fsb {
+    top: 140px;
+    left: 67px;
+  }
+
+  .image-armor-fsb {
+    top: 152px;
+    left: 148px;
+  }
+
+  .image-vest-fsb {
+    top: 128px;
+    left: 114px;
+  }
+
+  .image-feet-fsb {
+    top: 770px;
+    left: 78px;
+  }
+
+  @media (max-width: 1199px) {
+    .suit-block-fsb {
+      width: 768px;
+    }
+
+    .suit-title-fsb {
+      transform: translateX(-150px);
+      font-size: 18px;
+    }
+
+    .suit-list-fsb {
+      margin-top: 200px;
+    }
+
+    .block-title-fsb {
+      width: 600px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 60px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: -230px;
+      top: 450px;
+    }
+
+    .block-footer-text-fsb {
+      max-width: 700px;
+      max-height: 300px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .suit-block-fsb {
+      width: 300px;
+      margin: 50px auto 0 auto;
+    }
+
+    .suit-image-fsb {
+      display: none;
+    }
+
+    .bg-suit-fsb {
+      margin: 0 auto;
+      width: 300px;
+      height: 900px;
+      background-size: 240px;
+      background-position-x: center;
+    }
+
+    .block-title-fsb {
+      width: 180px;
+      margin: 0;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: -55px;
+      top: 75px;
+    }
+
+    .block-footer-text-fsb {
+      display: none;
+    }
+
+    .suit-list-fsb {
+      margin-top: 470px;
+    }
+
+    .suit-title-fsb {
+      transform: none;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      line-height: 50px;
+      background-color: #3c78e8;
+      margin: 10px 0;
+      color: #fff;
+      font-size: 16px;
+      box-shadow: 4px 4px 6px rgba(166, 166, 166, 0.5);
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .suit-title-fsb:hover,
+    .suit-title-fsb:focus,
+    .suit-title-fsb:active {
+      transform: translateX(2px) translateY(2px);
+      box-shadow: 2px 2px 4px rgba(166, 166, 166, 0.5);
+    }
+  }
+</style>
+<div class="suit-block-fsb">
+  <h3 class="block-title-fsb">
+    BE polite
+  </h3>
+  <div class="bg-suit-fsb">
+    <ul class="suit-list-fsb">
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">Helmet</h4>
+          <img class="suit-image-fsb image-helmet-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_helmet.png" alt="">
+          <img class="suit-image-fsb image-helmet-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_helmet_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">Gun</h4>
+          <img class="suit-image-fsb image-gun-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_gun.png" alt="">
+          <img class="suit-image-fsb image-gun-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_gun_active.png" alt="">
+        </a>
+      </li>
+      <li>
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">suit</h4>
+          <img class="suit-image-fsb image-body-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_suit.png" alt="">
+          <img class="suit-image-fsb image-body-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_suit_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">armor</h4>
+          <img class="suit-image-fsb image-armor-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_armor.png" alt="">
+          <img class="suit-image-fsb image-armor-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_armor_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">vest</h4>
+          <img class="suit-image-fsb image-vest-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_vest.png" alt="">
+          <img class="suit-image-fsb image-vest-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_vest_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-fsb" href="#">
+          <h4 class="suit-title-fsb">feet</h4>
+          <img class="suit-image-fsb image-feet-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_boots.png" alt="">
+          <img class="suit-image-fsb image-feet-fsb suit-image_active-fsb" src="https://grey-shop.ru/image/catalog/promo-suits/febes_boots_active.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p class="block-footer-text-fsb">ololo nlo</p>
+</div>
+</body>
+</html>

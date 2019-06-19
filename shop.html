@@ -6,14 +6,102 @@
   <title>Title</title>
 </head>
 <body>
-  <style>
+<style>
+  .shop-container-about {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(155, 155, 155, .6)
+  }
 
-  </style>
-<div class="shop-container">
-  <div class="shop-images">
-    <img src="" alt="">
+  .about-shop-images {
+    display: flex;
+    height: 326px;
+  }
+
+  .about-shop-images > div {
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-shop-image {
+    display: block;
+  }
+
+  .shop-image-2 {
+    margin-top: auto;
+  }
+
+  .shop-image-3 {
+    margin-left: 15px;
+  }
+
+  .about-shop-text {
+    width: 90%;
+    margin: 20px auto;
+    font-family: "Signika Negative", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  @media (max-width: 1199px) {
+    .shop-container-about {
+      width: 768px;
+      flex-direction: column;
+    }
+
+    .about-shop-images {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .shop-container-about {
+      width: 320px;
+      box-shadow: 0 5px 10px rgba(155, 155, 155, .6)
+    }
+
+    .about-shop-images {
+      flex-direction: column;
+      width: 320px;
+      height: auto;
+    }
+
+    .about-shop-images > div {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-shop-image {
+      width: 300px;
+      height: auto;
+      margin: 5px auto 0 auto;
+    }
+  }
+</style>
+<div class="shop-container-about">
+  <div class="about-shop-images">
+    <div>
+      <img class="about-shop-image" src="https://grey-shop.ru/image/catalog/promo-info/shop-1.jpg" alt="">
+      <img class="about-shop-image shop-image-2" src="https://grey-shop.ru/image/catalog/promo-info/store-2.jpg" alt="">
+    </div>
+    <img class="about-shop-image shop-image-3" src="https://grey-shop.ru/image/catalog/promo-info/shop-3.jpg" alt="">
   </div>
-  <div class="shop-text"></div>
+  <div class="about-text-block">
+    <p class="about-shop-text">
+      We supply original Russian equipment all over the world! Fast delivery time to any part of the world in 1-3 days with low cost.
+    </p>
+    <p class="about-shop-text">
+      You can make a secure payment via PAYPAL/VISA/MASTERCARD directly on the website and your order will be sent automatically.
+    </p>
+    <br>
+    <p class="about-shop-text">
+      Our big warehouse has actual stock of all positions, it is the best choice for purchasing of the Russian equipment and clothes which is highly regarded by the excellent
+      quality and price!
+    </p>
+  </div>
 </div>
 </body>
 </html>

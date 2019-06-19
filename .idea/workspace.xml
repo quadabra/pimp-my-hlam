@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bc3f45-11ac-47c2-b474-642f2357e5dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vezhliviy.html" beforeDir="false" afterPath="$PROJECT_DIR$/vezhliviy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rg.html" beforeDir="false" afterPath="$PROJECT_DIR$/rg.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +38,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2522">
-              <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
+            <state relative-caret-position="594">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -67,6 +76,7 @@
         <option value="$PROJECT_DIR$/cosplay.html" />
         <option value="$PROJECT_DIR$/fsb-suit.html" />
         <option value="$PROJECT_DIR$/vezhliviy.html" />
+        <option value="$PROJECT_DIR$/shop.html" />
         <option value="$PROJECT_DIR$/rg.html" />
       </list>
     </option>
@@ -144,7 +154,7 @@
       <updated>1560766193127</updated>
       <workItem from="1560766195184" duration="14247000" />
       <workItem from="1560849422449" duration="14455000" />
-      <workItem from="1560935142534" duration="4240000" />
+      <workItem from="1560935142534" duration="5194000" />
     </task>
     <task id="LOCAL-00002" summary="added promo no css">
       <created>1560772837113</created>
@@ -258,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560949406499</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="rg suit">
+      <created>1560955884088</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560955884088</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32997000" />
+    <option name="totallyTimeSpent" value="33951000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -307,7 +324,8 @@
     <MESSAGE value="fsb-suit moved to left" />
     <MESSAGE value="fsb-suit title no user select" />
     <MESSAGE value="fsb-suit no user select" />
-    <option name="LAST_COMMIT_MESSAGE" value="fsb-suit no user select" />
+    <MESSAGE value="rg suit" />
+    <option name="LAST_COMMIT_MESSAGE" value="rg suit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -370,10 +388,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2522">
-          <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
+        <state relative-caret-position="594">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>

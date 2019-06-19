@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7bc3f45-11ac-47c2-b474-642f2357e5dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fsb-suit.html" beforeDir="false" afterPath="$PROJECT_DIR$/fsb-suit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vezhliviy.html" beforeDir="false" afterPath="$PROJECT_DIR$/vezhliviy.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,17 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vezhliviy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="18" lean-forward="true" selection-end-line="285" />
+            <state relative-caret-position="234">
+              <caret line="13" column="18" lean-forward="true" selection-end-line="286" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fsb-suit.html">
+        <entry file="file://$PROJECT_DIR$/rg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="2522">
+              <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -63,8 +65,9 @@
         <option value="$PROJECT_DIR$/manufacturers.html" />
         <option value="$PROJECT_DIR$/promo.html" />
         <option value="$PROJECT_DIR$/cosplay.html" />
-        <option value="$PROJECT_DIR$/vezhliviy.html" />
         <option value="$PROJECT_DIR$/fsb-suit.html" />
+        <option value="$PROJECT_DIR$/vezhliviy.html" />
+        <option value="$PROJECT_DIR$/rg.html" />
       </list>
     </option>
   </component>
@@ -141,7 +144,7 @@
       <updated>1560766193127</updated>
       <workItem from="1560766195184" duration="14247000" />
       <workItem from="1560849422449" duration="14455000" />
-      <workItem from="1560935142534" duration="1932000" />
+      <workItem from="1560935142534" duration="4240000" />
     </task>
     <task id="LOCAL-00002" summary="added promo no css">
       <created>1560772837113</created>
@@ -234,11 +237,32 @@
       <option name="project" value="LOCAL" />
       <updated>1560948937531</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fsb-suit moved to left">
+      <created>1560949232874</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949232874</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fsb-suit title no user select">
+      <created>1560949323109</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949323109</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fsb-suit no user select">
+      <created>1560949406499</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949406499</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30689000" />
+    <option name="totallyTimeSpent" value="32997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -280,7 +304,10 @@
     <MESSAGE value="vezh add title" />
     <MESSAGE value="fsb-suit done" />
     <MESSAGE value="fsb-suit removed border" />
-    <option name="LAST_COMMIT_MESSAGE" value="fsb-suit removed border" />
+    <MESSAGE value="fsb-suit moved to left" />
+    <MESSAGE value="fsb-suit title no user select" />
+    <MESSAGE value="fsb-suit no user select" />
+    <option name="LAST_COMMIT_MESSAGE" value="fsb-suit no user select" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -331,15 +358,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vezhliviy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="18" lean-forward="true" selection-end-line="285" />
+        <state relative-caret-position="234">
+          <caret line="13" column="18" lean-forward="true" selection-end-line="286" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fsb-suit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="1170">
+          <caret line="215" column="49" lean-forward="true" selection-start-line="215" selection-start-column="49" selection-end-line="215" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2522">
+          <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
         </state>
       </provider>
     </entry>

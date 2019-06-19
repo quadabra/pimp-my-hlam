@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>main</title>
+</head>
+<body>
+<style>
+  .suit-block-rg {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    user-select: none;
+  }
+
+  .bg-suit-rg {
+    margin-left: auto;
+    width: 480px;
+    height: 940px;
+    background: url("https://grey-shop.ru/image/catalog/promo-suits/rg_bg.png") no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+
+  .block-title-rg {
+    width: 600px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 800;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -200px;
+    top: 250px;
+  }
+
+  .block-footer-text-rg {
+    max-width: 700px;
+    max-height: 300px;
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .suit-list-rg {
+    margin: 100px 0 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .suit-image-rg {
+    position: absolute;
+  }
+
+  .suit-image_active-rg {
+    opacity: 0;
+  }
+
+  .suit-element-rg {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .suit-element-rg:hover > .suit-image_active-rg {
+    opacity: 1;
+  }
+
+  .suit-title-rg {
+    width: 200px;
+    position: relative;
+    transform: translateX(-250px);
+    color: #000;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
+    margin: 50px 10px;
+    text-transform: uppercase;
+    text-align: left;
+    transition-duration: .15s;
+  }
+
+  .suit-element-rg:hover > .suit-title-rg {
+    color: #6e9f26;
+  }
+
+  .image-helmet-rg {
+    top: 4px;
+    left: 165px;
+  }
+
+  .image-balaklava-rg {
+    top: 54px;
+    left: 184px;
+  }
+
+  .image-gun-rg {
+    top: 241px;
+    left: 105px;
+  }
+
+  .image-hands-rg {
+    top: 312px;
+    left: 118px;
+  }
+
+  .image-body-rg {
+    top: 417px;
+    left: 121px;
+  }
+
+  .image-armor-rg {
+    top: 152px;
+    left: 135px;
+  }
+
+  .image-vest-rg {
+    top: 131px;
+    left: 109px;
+  }
+
+  .image-belt-rg {
+    top: 369px;
+    left: 132px;
+  }
+
+  .image-feet-rg {
+    top: 804px;
+    left: 78px;
+  }
+
+  @media (max-width: 1199px) {
+    .suit-block-rg {
+      width: 768px;
+    }
+
+    .suit-title-rg {
+      transform: translateX(-150px);
+      font-size: 18px;
+    }
+
+    .suit-list-rg {
+      margin-top: 200px;
+    }
+
+    .block-title-rg {
+      width: 600px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 60px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: -250px;
+      top: 450px;
+    }
+
+    .block-footer-text-rg {
+      max-width: 700px;
+      max-height: 300px;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .suit-block-rg {
+      width: 300px;
+      margin: 50px auto 0 auto;
+    }
+
+    .suit-image-rg {
+      display: none;
+    }
+
+    .bg-suit-rg {
+      margin: 0 auto;
+      width: 300px;
+      height: 1000px;
+      background-size: 240px;
+      background-position-x: center;
+    }
+
+    .block-title-rg {
+      width: 180px;
+      margin: 0;
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 800;
+      position: absolute;
+      transform: rotate(90deg);
+      left: 185px;
+      top: 75px;
+    }
+
+    .block-footer-text-rg {
+      display: none;
+    }
+
+    .suit-list-rg {
+      margin-top: 470px;
+    }
+
+    .suit-title-rg {
+      transform: none;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      line-height: 50px;
+      background-color: #3c78e8;
+      margin: 10px 0;
+      color: #fff;
+      font-size: 16px;
+      box-shadow: 4px 4px 6px rgba(166, 166, 166, 0.5);
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .suit-title-rg:hover,
+    .suit-title-rg:focus,
+    .suit-title-rg:active {
+      transform: translateX(2px) translateY(2px);
+      box-shadow: 2px 2px 4px rgba(166, 166, 166, 0.5);
+    }
+  }
+</style>
+<div class="suit-block-rg">
+  <h3 class="block-title-rg">
+    BE polite
+  </h3>
+  <div class="bg-suit-rg">
+    <ul class="suit-list-rg">
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">Helmet</h4>
+          <img class="suit-image-rg image-helmet-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_helmet.png" alt="">
+          <img class="suit-image-rg image-helmet-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_helmet_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">Balalaklava</h4>
+          <img class="suit-image-rg image-balaklava-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_balaklava.png" alt="">
+          <img class="suit-image-rg image-balaklava-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_balaklava_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">vest</h4>
+          <img class="suit-image-rg image-vest-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_longsleeve.png" alt="">
+          <img class="suit-image-rg image-vest-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_longsleeve_active.png" alt="">
+        </a>
+      </li>
+
+
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">armor</h4>
+          <img class="suit-image-rg image-armor-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_armor.png" alt="">
+          <img class="suit-image-rg image-armor-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_armor_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">Gun</h4>
+          <img class="suit-image-rg image-gun-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_gun.png" alt="">
+          <img class="suit-image-rg image-gun-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_gun_active.png" alt="">
+        </a>
+      </li>
+      <li>
+
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">hands</h4>
+          <img class="suit-image-rg image-hands-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_hands.png" alt="">
+          <img class="suit-image-rg image-hands-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_hands_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">suit</h4>
+          <img class="suit-image-rg image-body-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_pants.png" alt="">
+          <img class="suit-image-rg image-body-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_pants_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">belt</h4>
+          <img class="suit-image-rg image-belt-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_belt.png" alt="">
+          <img class="suit-image-rg image-belt-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_belt_active.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="suit-element-rg" href="#">
+          <h4 class="suit-title-rg">feet</h4>
+          <img class="suit-image-rg image-feet-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_boots.png" alt="">
+          <img class="suit-image-rg image-feet-rg suit-image_active-rg" src="https://grey-shop.ru/image/catalog/promo-suits/rg_boots_active.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p class="block-footer-text-rg">ololo nlo</p>
+</div>
+</body>
+</html>

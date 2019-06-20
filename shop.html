@@ -7,6 +7,15 @@
 </head>
 <body>
 <style>
+  .about-shop-title {
+    font-family: "Signika Negative", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .shop-container-about {
     margin: 0 auto;
     width: 1170px;
@@ -18,6 +27,7 @@
     display: flex;
     height: 326px;
     width: 701px;
+    flex-shrink: 0;
   }
 
   .about-images-group {
@@ -41,10 +51,10 @@
 
   .about-shop-text {
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
     font-family: "Signika Negative", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -52,6 +62,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 326px;
   }
 
   @media (max-width: 1199px) {
@@ -66,6 +77,13 @@
   }
 
   @media (max-width: 767px) {
+    .about-shop-title {
+      font-family: "Signika Negative", sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
     .shop-container-about {
       width: 320px;
       box-shadow: 0 5px 10px rgba(155, 155, 155, .6)
@@ -89,6 +107,10 @@
       height: auto;
       margin: 5px auto 0 auto;
     }
+
+    .about-shop-text {
+      font-size: 14px;
+    }
   }
 </style>
 <div class="shop-container-about">
@@ -100,6 +122,7 @@
     <img class="about-shop-image shop-image-3" src="https://grey-shop.ru/image/catalog/promo-info/shop-3.jpg" alt="">
   </div>
   <div class="about-text-block">
+    <h2 class="about-shop-title">About US</h2>
     <p class="about-shop-text">
       We supply original Russian equipment all over the world! Fast delivery time to any part of the world in 1-3 days with low cost.
     </p>

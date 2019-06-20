@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/vezhliviy.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="13" column="18" lean-forward="true" selection-end-line="286" />
+              <caret line="13" column="18" selection-end-line="286" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+            <state relative-caret-position="38">
+              <caret line="78" column="29" selection-start-line="8" selection-end-line="136" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -113,7 +113,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mordor-tac" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -155,6 +155,7 @@
       <workItem from="1560849422449" duration="14455000" />
       <workItem from="1560935142534" duration="6461000" />
       <workItem from="1561022341414" duration="70000" />
+      <workItem from="1561025307661" duration="1838000" />
     </task>
     <task id="LOCAL-00002" summary="added promo no css">
       <created>1560772837113</created>
@@ -289,14 +290,22 @@
       <option name="project" value="LOCAL" />
       <updated>1560958938451</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="shop done">
+      <created>1561026526405</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561026526405</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35288000" />
+    <option name="totallyTimeSpent" value="37126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11675127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -340,7 +349,8 @@
     <MESSAGE value="rg suit" />
     <MESSAGE value="rg suit add bag" />
     <MESSAGE value="shop about done" />
-    <option name="LAST_COMMIT_MESSAGE" value="shop about done" />
+    <MESSAGE value="shop done" />
+    <option name="LAST_COMMIT_MESSAGE" value="shop done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -399,7 +409,7 @@
     <entry file="file://$PROJECT_DIR$/vezhliviy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="18" lean-forward="true" selection-end-line="286" />
+          <caret line="13" column="18" selection-end-line="286" />
         </state>
       </provider>
     </entry>
@@ -412,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        <state relative-caret-position="38">
+          <caret line="78" column="29" selection-start-line="8" selection-end-line="136" selection-end-column="6" />
         </state>
       </provider>
     </entry>
